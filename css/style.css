@@ -190,7 +190,6 @@ p {
 }
 
 /* About Info */
-
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -211,7 +210,6 @@ p {
 }
 
 /* Testimonials */
-
 #testimonials {
     height: 600px;
     background: url('../img/pexels-jean-van-der-meulen-1457845.jpg') no-repeat center/cover;
@@ -236,6 +234,33 @@ p {
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.9;
+}
+
+/* Contact form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #05d5d9;
 }
 
 /* Footer */
