@@ -58,6 +58,26 @@ p {
     color: #5e5e5e;
 }
 
+.btn-light {
+    background: #eaecf1;
+    color: #5e5e5e;
+}
+
+.bg-dark {
+    background: #5e5e5e;
+    color: #eaecf1;
+}
+
+.bg-light {
+    background: #5e5e5e;
+    color: #05d5d9;
+}
+
+.bg-primary {
+    background: #eaecf1;
+    color: #5e5e5e;
+}
+
 /* Navbar */
 #navbar {
     background: #5e5e5e;
@@ -115,4 +135,29 @@ p {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/pexels-eduardo-romero-3124079.jpg') no-repeat center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
