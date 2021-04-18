@@ -68,14 +68,18 @@ p {
     color: #eaecf1;
 }
 
-.bg-light {
-    background: #5e5e5e;
-    color: #05d5d9;
+.bg-primary {
+    background: #09e8de;
+    color: #5e5e5e;
 }
 
-.bg-primary {
+.bg-light {
     background: #eaecf1;
     color: #5e5e5e;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Navbar */
@@ -160,4 +164,24 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Fatures */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #808080;
+    color: #eaecf1;
+    padding: 20px;
 }
